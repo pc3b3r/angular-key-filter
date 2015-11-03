@@ -3,7 +3,7 @@
 
   angular
     .module('app-name')
-    .filter('KeyFilter', KeyFilter);
+    .filter('keyFilter', KeyFilter);
 
   function KeyFilter() {
     return function(input, filter) {
